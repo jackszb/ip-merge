@@ -1,0 +1,10 @@
+{
+  "ipv4_urls": [
+    "https://example.com/path/to/ipv4-source-1.json",
+    "https://example.com/path/to/ipv4-source-2.json"
+  ],
+  "ipv6_urls": [
+    "https://example.com/path/to/ipv6-source-1.json",
+    "https://example.com/path/to/ipv6-source-2.json"
+  ]
+}
