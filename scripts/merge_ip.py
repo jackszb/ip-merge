@@ -40,7 +40,11 @@ def fetch_json(url, timeout=20):
 
 
 def extract_cidrs(data):
-    """从任意 version 的规则文件中提取全部 ip_cidr 条目"""
+    """从任意 version 的规则文件中提取全部 ip_cidr 条目。
+
+    只读取每个 rule 里的 "ip_cidr" 字段；"domain"、"domain_suffix"
+    等其他字段一律忽略，不会被提取或写入结果。
+    """
     result = []
     for rule in data.get("rules", []):
         for item in rule.get("ip_cidr", []):
