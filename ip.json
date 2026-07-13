@@ -1,10 +1,11 @@
 {
   "ipv4_urls": [
-    "https://example.com/path/to/ipv4-source-1.json",
-    "https://example.com/path/to/ipv4-source-2.json"
+    "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/sing-box/ip/china_ip.json",
+    "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/sing-box/ip/domestic.json",
+    "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/lan-ipv4.json"
   ],
   "ipv6_urls": [
-    "https://example.com/path/to/ipv6-source-1.json",
-    "https://example.com/path/to/ipv6-source-2.json"
+    "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/sing-box/ip/china_ip_ipv6.json",
+    "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/lan-ipv6.json"
   ]
 }
