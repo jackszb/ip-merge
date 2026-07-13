@@ -5,7 +5,7 @@
     "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/lan-ipv4.json"
   ],
   "ipv6_urls": [
-    "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/sing-box/ip/china_ip_ipv6.json",
+    "https://raw.githubusercontent.com/jackszb/rules-build/main/rules-src/lan-ipv6.json",
     "https://raw.githubusercontent.com/jackszb/sukka-json/main/ip/china_ip_ipv6.json"
   ]
 }
